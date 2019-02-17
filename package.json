@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitronin",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.13"
+  },
+  "devDependencies": {
+    "koa-morgan": "^1.0.1",
+    "koa-parser": "^1.0.6",
+    "nodemon": "^1.18.7"
+  }
+}
